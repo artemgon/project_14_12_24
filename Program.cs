@@ -1,11 +1,19 @@
-﻿
+﻿using project_14_12_24.Classes;
+
 namespace project_14_12_24
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            try
+            {
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }
